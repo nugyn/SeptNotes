@@ -383,17 +383,24 @@ Benefits:
 
 ####What goes into a Test Case description? How/when are users engaged in testing? What are good features of a test case? You should be prepared to design some small number of test cases for a simple application. 
 
+
+Designed to test 1 aspect of the system. 
+
+| *Test Case ID*        | Unique Test Case Identification Number                       |
+| ----------------------- | ------------------------------------------------------------ |
+| *Module to be tested* | Module name or Requirement ID, generally used to prepare requirement traceability matrix between test cases and requirement. |
+| *Assumptions*         | If any                                                       |
+| *Test Data*           | Test data required for executing the test case.              |
+| *Test Steps*          | Detailed steps for test case execution.                      |
+| *Expected results*    | How application should behave after executing the above testing steps. |
+| *Result*              | Pass or Fail                                                 |
+| *Comments*            | Add Additional information like screenshot, login credentials, for developer to get the exact information for developer. |
+
+- Use use-cases or stories to design test case at the system level
+- Functional requirements may be used to identify different data values
+- Must be reproducible - the setup and the steps to perform the test must be precise.
+
 > Designed to test 1 aspect of the system. 
->
-> | **Test Case ID**        | Unique Test Case Identification Number                       |
-> | ----------------------- | ------------------------------------------------------------ |
-> | **Module to be tested** | Module name or Requirement ID, generally used to prepare requirement traceability matrix between test cases and requirement. |
-> | **Assumptions**         | If any                                                       |
-> | **Test Data**           | Test data required for executing the test case.              |
-> | **Test Steps**          | Detailed steps for test case execution.                      |
-> | **Expected results**    | How application should behave after executing the above testing steps. |
-> | **Result**              | Pass or Fail                                                 |
-> | **Comments**            | Add Additional information like screenshot, login credentials, for developer to get the exact information for developer. |
 >
 > - Use use-cases or stories to design test case at the system level
 > - Functional requirements may be used to identify different data values
